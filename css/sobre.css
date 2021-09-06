@@ -1,0 +1,61 @@
+.sobre__texto{
+    margin-bottom: 5rem;
+}
+
+.sobre__texto--destaque{
+    color: var(--cinza-escuro);
+    font-weight: 700;
+}
+
+.sobre__plataformas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 5rem;
+}
+
+.row{
+    width: 100%;
+}
+
+.esquerda{
+float: left;
+width: 50%;
+}
+
+.direita{
+float: left;
+width: 39%;
+background: url('../img/sobre-apeperia.png')
+     no-repeat center center/cover;
+     height: 100vh;
+}
+
+@media screen and (min-width: 768px){
+    .sobre__texto {
+        margin-bottom: 1rem;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .row{
+        width: 93%;
+display: flex;
+flex-direction: column;
+    }
+
+    .esquerda {
+        
+        width: 100%;
+    }
+
+    .direita{
+        width: 96%;
+    }
+}
+
+
+
+
+
+
